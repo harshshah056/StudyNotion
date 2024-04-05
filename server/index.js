@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "https://study-notion-eta-topaz.vercel.app/signup",
+		origin: "https://study-notion-eta-topaz.vercel.app",
 		credentials: true,
 	})
 );
