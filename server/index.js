@@ -21,13 +21,13 @@ dotenv.config();
 
 // Connecting to database
 database.connect();
- 
+ //http://localhost:3000
 // Middlewares
 app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "http://localhost:3000",
+		origin: "https://study-notion-eta-topaz.vercel.app/signup",
 		credentials: true,
 	})
 );
